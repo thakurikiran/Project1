@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guruji Fitness Club</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhai&display=swap" rel="stylesheet">
+
+    <style>
+        body {
+            color: white;
+            margin: 0px;
+            padding: 0px;
+            background: url(photo/man-5883500_1920.jpg);
+            font-family: 'Baloo Bhai', cursive;
+
+        }
+
+
+        .left {
+            /* border: 2px solid red; */
+            display: inline-block;
+            position: absolute;
+            left: 55px;
+            top: 15px;
+
+        }
+
+        .left img {
+            width: 115px;
+            margin: auto;
+
+        }
+
+        .left div {
+            text-align: center;
+            line-height: 0px;
+            font-size: 20px;
+
+        }
+
+        .mid {
+            /* border: 2px solid rgb(200, 255, 0); */
+            display: block;
+            width: 40%;
+            margin: 25px auto;
+
+        }
+
+        .right {
+            /* border: 2px solid rgb(0, 255, 76); */
+            display: inline-block;
+            position: absolute;
+            right: 38px;
+            top: 30px;
+
+        }
+
+        .navbar {
+            display: inline-block;
+
+        }
+
+        .navbar li {
+            display: inline-block;
+            font-size: 20px;
+
+        }
+
+        .navbar li a {
+            color: white;
+            text-decoration: none;
+            padding: 34px 24px;
+        }
+
+        .navbar li a:hover,
+        .navbar li a.active {
+            text-decoration: underline;
+            color: rgb(198, 187, 187);
+        }
+
+        .btn {
+            color: white;
+            background-color: rgb(47, 41, 41);
+            padding: 4px 12px;
+            font-size: 15px;
+            border-radius: 8px;
+            cursor: pointer;
+            font-family: 'Baloo Bhai', cursive;
+
+
+
+        }
+
+        .btn:hover {
+            background-color: rgb(135, 115, 115);
+
+        }
+
+        .container {
+            /* border: 2px solid white; */
+            margin: 106px 80px;
+            padding: 75px;
+            width: 33%;
+            border-radius: 28px;
+
+
+        }
+
+        .form-group input {
+            text-align: center;
+            display: block;
+            width: 435px;
+            margin: 9px auto;
+            padding: 1px;
+            font-size: 18px;
+            border-radius: 8px;
+            font-family: 'Baloo Bhai', cursive;
+        }
+
+
+
+
+
+        .container h1 {
+            text-align: center;
+        }
+
+        .container button {
+            display: block;
+            width: 435px;
+            margin: 20px auto;
+
+        }
+    </style>
+</head>
+
+<body>
+    <header class="header">
+
+        <div class="left">
+            <img src="photo/gym-7328168_1920.png" alt="">
+            <div>Guruji fit Club</div>
+
+        </div>
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Price and packages</a></li>
+            </ul>
+
+        </div>
+        <div class="right">
+            <button class="btn">Contact Us</button>
+            <button class="btn">About Us</button>
+            <button class="btn">Book a free tial</button>
+
+        </div>
+        <div class="container">
+            <h1>Join The Best Gym In Nepal</h1>
+            <form action="noaction.php">
+
+                <div class="form-group">
+                    <input type="text" placeholder="Enter your NAme">
+                </div>
+
+                <div class="form-group">
+                    <input type="text" placeholder="Enter your Age">
+                </div>
+
+                <div class="form-group">
+                    <input type="text" placeholder="Enter your Gender">
+                </div>
+
+                <div class="form-group">
+                    <input type="text" placeholder="Enter your Email Id">
+                </div>
+
+                <div class="form-group">
+                    <input type="text" placeholder="Enter your Phone number">
+                </div>
+                <button class="btn">Submit</button>
+            </form>
+        </div>
+
+    </header>
+
+</body>
+
+</html>
